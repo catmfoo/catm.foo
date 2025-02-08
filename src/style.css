@@ -1,0 +1,34 @@
+body {
+  font-family: "Noto Serif", serif;
+  color: #444;
+  line-height: 1.6;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: sans-serif;
+}
+
+a:visited,
+a:any-link {
+  color: inherit;
+}
+
+a.no-line {
+  text-decoration: none;
+}
+
+a.no-line:hover {
+  text-decoration: underline;
+}
+
+@media (prefers-color-scheme: dark) {
+  body {
+    background-color: #1f1f1f;
+    color: #f1f1f1;
+  }
+}
