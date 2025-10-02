@@ -18,7 +18,7 @@ export default function BlogPostTemplate({ data, location }) {
         <h1>{frontmatter.title}</h1>
         <div dangerouslySetInnerHTML={{ __html: html }} />
         <p style={{ margin: "50px 0" }}>
-          {formattedDate}&nbsp;&nbsp;<a href="/about">katmfoo</a>
+          {formattedDate}&nbsp;&nbsp;<a href="/about">catmfoo</a>
         </p>
       </article>
     </Layout>

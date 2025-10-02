@@ -2,7 +2,7 @@ import React from "react";
 
 export default function Layout({ children, location }) {
   const links = [
-    { title: "katm.foo", href: "/" },
+    { title: "catm.foo", href: "/" },
     { title: "writing", href: "/writing/" },
     { title: "photos", href: "/photos/" },
     { title: "about", href: "/about/" },
